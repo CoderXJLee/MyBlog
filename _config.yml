@@ -9,7 +9,7 @@ timezone: ''
 
 # URL
 ## Set your site url here. For example, if you use GitHub Page, set url as 'https://username.github.io/project'
-url: http://example.com
+url: https://coderxjlee.github.io
 permalink: :year/:month/:day/:title/
 permalink_defaults:
 pretty_urls:
@@ -90,11 +90,23 @@ include:
 exclude:
 ignore:
 
+
+
+
+
+
+
+
+
+
+#从这开始是自己写的
+
+
+
 # Extensions
 ## Plugins: https://hexo.io/plugins/
 ## Themes: https://hexo.io/themes/
 theme: hexo-theme-matery
-#landscape
 
 # Deployment
 ## Docs: https://hexo.io/docs/one-command-deployment
@@ -104,10 +116,40 @@ deploy:
   branch: master
   
 #RSS订阅
-plugin:
-- hexo-generator-feed
-#Feed Atom
 feed:
-    type: atom
-    path: atom.xml
-    limit: 20
+  type: atom
+  path: atom.xml
+  limit: 20
+  hub:
+  content:
+  content_limit: 140
+  content_limit_delim: ' '
+  order_by: -date
+    
+#搜索
+search:
+  path: search.xml
+  field: post
+  
+#中文链接转拼音
+permalink_pinyin:
+  enable: true
+  separator: '-' # default: '-'
+
+
+#文章字数统计插件
+postInfo:
+  date: true
+  update: true
+  wordCount: true # 设置文章字数统计为 true.
+  totalCount: true # 设置站点文章总字数统计为 true.
+  min2read: true # 阅读时长.
+  readCount: true # 阅读次数.
+  
+#添加emoji表情支持
+githubEmojis:
+  enable: true
+  className: github-emoji
+  inject: true
+  styles:
+  customEmojis:

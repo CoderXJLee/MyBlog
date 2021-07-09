@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>XJLee</title>
+  
+  <subtitle>随便写写</subtitle>
+  <link href="https://coderxjlee.github.io/atom.xml" rel="self"/>
+  
+  <link href="https://coderxjlee.github.io/"/>
+  <updated>2021-07-09T08:06:28.288Z</updated>
+  <id>https://coderxjlee.github.io/</id>
+  
+  <author>
+    <name>杰帅</name>
+    
+  </author>
+  
+  <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>序言</title>
+    <link href="https://coderxjlee.github.io/2021/07/09/xu-yan/"/>
+    <id>https://coderxjlee.github.io/2021/07/09/xu-yan/</id>
+    <published>2021-07-09T08:06:00.000Z</published>
+    <updated>2021-07-09T08:06:28.288Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;p&gt;以前就写过博客，今天整理了从头来，记录生活。&lt;/p&gt;
+</summary>
+        
+      
+    
+    
+    
+    
+  </entry>
+  
+</feed>
